@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 개요
 
-## Getting Started
-
-First, run the development server:
+이프로젝트는 chatGPT와 Dell-E2를 이용하여 자동으로 스토리 내용과 책 표지를 포함한 소설책을 만들어 주는 사이트이다.
 
 ```bash
 npm run dev
