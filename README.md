@@ -2,33 +2,25 @@
 
 이프로젝트는 chatGPT와 Dell-E2를 이용하여 자동으로 스토리 내용과 책 표지를 포함한 소설책을 만들어 주는 사이트이다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+사이트 주소 : (곳 배포 예정)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+OpenAI : https://openai.com/
+ChatGPT : https://chat.openai.com/
+Dell-E2 : https://labs.openai.com/
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 사용 라이브러리 : [Next.js](https://nextjs.org/)
+- 디자인 : [figma](https://www.figma.com/)
+- 만든 사람 : 김민서
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
+*이 프로젝트는 미래산업과학고등학교 수행평가 및 김민서의 첫 개인 사이트 배포를 위해 만들어졌습니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 사이트 소개
 
-## Learn More
+지금 머리에 딱 생각나는 스토리가 있는데 직접 쓰기는 귀찮지만 누군가 이 이야기로 소설을 써주길 바란다구요?
+AI에게 부탁해보세요! 당신의 이야기를 대신 써줄거에요!
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [랜덤북](http://localhost:3000/Rendombook) - AI가 주제부터 장르까지 전부 정해서 랜덤으로 책을 만들어줍니다!
+- [커스텀북](http://localhost:3000/Rendombook) - 당신이 생각한 이야기를 적어주세요! AI가 소설로 만들어줄거에요!
+- [괴담](http://localhost:3000/Rendombook) - 무서운 이야기를 듣고 싶다면 여기로!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
