@@ -1,27 +1,57 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  background: #303030;
+  color: white;
+}
+
+.navbar {
+  background: white;
+  padding: 20px;
+}
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+.title-sub {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.field {
+  margin: 30px auto;
+  width: 80%;
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.button {
+  padding: 15px 40px 15px 40px;
+
+  background: rgb(15, 79, 173);
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.bookmark {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  line-height: 0px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
 }
