@@ -3,10 +3,11 @@
 이프로젝트는 chatGPT와 Dell-E2를 이용하여 자동으로 스토리 내용과 책 표지를 포함한 소설책을 만들어 주는 사이트이다.
 
 사이트 주소 : (곳 배포 예정)
+깃허브 주소 : https://github.com/KMSfile/AI-book
 
-OpenAI : https://openai.com/
-ChatGPT : https://chat.openai.com/
-Dell-E2 : https://labs.openai.com/
+OpenAI : https://openai.com/ 
+ChatGPT : https://chat.openai.com/ 
+Dell-E2 : https://labs.openai.com/ 
 
 - 사용 라이브러리 : [Next.js](https://nextjs.org/)
 - 디자인 : [figma](https://www.figma.com/)
@@ -25,6 +26,12 @@ AI에게 부탁해보세요! 당신의 이야기를 대신 써줄거에요!
 - [괴담](http://localhost:3000/Rendombook) - 무서운 이야기를 듣고 싶다면 여기로!
 
 ## 진행상황
+#### 완성
 1. 사이트 생성 완료
-2. 메인 페이지 - sever component (임시 완성임)
+2. 메인 페이지(임시 완성임) - sever component
 3. 랜덤북 페이지 제작중... - client component
+
+#### 예정
+[ ] 네비게이션 바 만들기
+[ ] 커스텀북 페이지 만들기
+[ ] 괴담 페이지 만들기
