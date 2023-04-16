@@ -3,6 +3,7 @@
 이프로젝트는 chatGPT와 Dell-E2를 이용하여 자동으로 스토리 내용과 책 표지를 포함한 소설책을 만들어 주는 사이트이다.
 
 사이트 주소 : (곳 배포 예정)
+깃허브 주소 : https://github.com/KMSfile/AI-book
 
 OpenAI : https://openai.com/
 ChatGPT : https://chat.openai.com/
