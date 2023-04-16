@@ -5,9 +5,9 @@
 사이트 주소 : (곳 배포 예정)
 깃허브 주소 : https://github.com/KMSfile/AI-book
 
-OpenAI : https://openai.com/ 
-ChatGPT : https://chat.openai.com/ 
-Dell-E2 : https://labs.openai.com/ 
+OpenAI : https://openai.com/  
+ChatGPT : https://chat.openai.com/  
+Dell-E2 : https://labs.openai.com/  
 
 - 사용 라이브러리 : [Next.js](https://nextjs.org/)
 - 디자인 : [figma](https://www.figma.com/)
