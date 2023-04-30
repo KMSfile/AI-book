@@ -1,10 +1,5 @@
-import { connectDB } from "@/util/database.js";
-import { MongoClient } from "mongodb"
 
 export default async function Bookmark() {
-  const db = (await connectDB).db("aibook")
-  let result = await db.collection('list').find().toArray()
-  console.log(result)
   
     return (
       <div>

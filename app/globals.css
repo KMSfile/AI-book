@@ -1,16 +1,118 @@
-body {
+* {
   margin: 0;
-  background: #303030;
-  color: white;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  gap: 160px;
 }
 
 .navbar {
   background: white;
   padding: 20px;
 }
-.navbar a {
+.navbar a{
   margin-right: 10px;
   text-decoration: none;
+}
+
+.box1 {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background: linear-gradient(45deg, #00f376 10%, transparent 10%, transparent 50%, #00f376 50%, #00f376 60%, transparent 50%, #00f376 60%, transparent 60%, transparent 100%);
+  background-size: 15px 15px;
+  box-shadow: 0 0 0 10px #000, 0 0 0 14px #00f376;
+  animation: animate 0.5s linear infinite;
+}
+.box1::before {
+  content: '';
+  position: absolute;
+  inset: 20px;
+  background: #000;
+}
+.box1::after {
+  content: '';
+  position: absolute;
+  inset: 30px;
+  border: 3px dashed #00f376;
+}
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 15px;
+  }
+}
+
+
+.box2 {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background: linear-gradient(45deg, #2869e2 10%, transparent 10%, transparent 50%, #2869e2 50%, #2869e2 60%, transparent 50%, #2869e2 60%, transparent 60%, transparent 100%);
+  background-size: 15px 15px;
+  box-shadow: 0 0 0 10px #000, 0 0 0 14px #2869e2;
+  animation: animate 0.5s linear infinite;
+}
+.box2::before {
+  content: '';
+  position: absolute;
+  inset: 20px;
+  background: #000;
+}
+.box2::after {
+  content: '';
+  position: absolute;
+  inset: 30px;
+  border: 3px dashed #2869e2;
+}
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 15px;
+  }
+}
+
+.box3 {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background: linear-gradient(45deg, #e22856 10%, transparent 10%, transparent 50%, #e22856 50%, #e22856 60%, transparent 50%, #e22856 60%, transparent 60%, transparent 100%);
+  background-size: 15px 15px;
+  box-shadow: 0 0 0 10px #000, 0 0 0 14px #e22856;
+  animation: animate 0.5s linear infinite;
+}
+.box3::before {
+  content: '';
+  position: absolute;
+  inset: 20px;
+  background: #000;
+}
+.box3::after {
+  content: '';
+  position: absolute;
+  inset: 30px;
+  border: 3px dashed #e22856;
+}
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 15px;
+  }
 }
 
 .title {

@@ -7,7 +7,7 @@ export default async function() {
 
     return(
         <div>
-
+            <h4>{ result }</h4>
         </div>
     )
 }
