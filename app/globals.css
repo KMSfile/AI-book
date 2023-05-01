@@ -28,16 +28,21 @@ body {
   position: relative;
   width: 350px;
   height: 500px;
+  color: white;
+  text-align: center;
+  padding: 40px;
   background: linear-gradient(45deg, #00f376 10%, transparent 10%, transparent 50%, #00f376 50%, #00f376 60%, transparent 50%, #00f376 60%, transparent 60%, transparent 100%);
   background-size: 15px 15px;
   box-shadow: 0 0 0 10px #000, 0 0 0 14px #00f376;
   animation: animate 0.5s linear infinite;
+  z-index: -2;
 }
 .box1::before {
   content: '';
   position: absolute;
   inset: 20px;
   background: #000;
+  z-index: -1;
 }
 .box1::after {
   content: '';
@@ -59,16 +64,21 @@ body {
   position: relative;
   width: 350px;
   height: 500px;
+  color: white;
+  text-align: center;
+  padding: 40px;
   background: linear-gradient(45deg, #2869e2 10%, transparent 10%, transparent 50%, #2869e2 50%, #2869e2 60%, transparent 50%, #2869e2 60%, transparent 60%, transparent 100%);
   background-size: 15px 15px;
   box-shadow: 0 0 0 10px #000, 0 0 0 14px #2869e2;
   animation: animate 0.5s linear infinite;
+  z-index: -2;
 }
 .box2::before {
   content: '';
   position: absolute;
   inset: 20px;
   background: #000;
+  -index: -1;
 }
 .box2::after {
   content: '';
@@ -89,16 +99,21 @@ body {
   position: relative;
   width: 350px;
   height: 500px;
+  color: white;
+  text-align: center;
+  padding: 40px;
   background: linear-gradient(45deg, #e22856 10%, transparent 10%, transparent 50%, #e22856 50%, #e22856 60%, transparent 50%, #e22856 60%, transparent 60%, transparent 100%);
   background-size: 15px 15px;
   box-shadow: 0 0 0 10px #000, 0 0 0 14px #e22856;
   animation: animate 0.5s linear infinite;
+  z-index: -2;
 }
 .box3::before {
   content: '';
   position: absolute;
   inset: 20px;
   background: #000;
+  z-index: -1;
 }
 .box3::after {
   content: '';
@@ -113,6 +128,25 @@ body {
   100% {
     background-position: 15px;
   }
+}
+
+.backimage {
+  position: relative;
+  margin-top: 10px;
+  border-radius: 35px;
+}
+.backimage::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 35px;
+  filter: blur(15px);
+  opacity: 0.5;
+  z-index: -1;
 }
 
 .title {
@@ -136,8 +170,14 @@ body {
   text-align: center;
 }
 
+.pagebutton {
+  margin-top: 10px;
+  padding: 15px 85px 15px 85px;
+  border-radius: 15px;
+}
+
 .button {
-  padding: 15px 40px 15px 40px;
+  padding: 15px 30px 15px 30px;
 
   background: rgb(15, 79, 173);
   color: white;
