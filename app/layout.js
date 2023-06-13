@@ -11,12 +11,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div className="navbar">
-          <Link href="/">홈</Link>
-          <Link href="/Rendombook">랜덤북</Link>
-          <Link href="/Bookmark">북마크</Link>
+          AI로 나만의 책 만들기!
         </div>
 
         {children}
+        
       </body>
     </html>
   )

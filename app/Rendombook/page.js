@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 
 const openai = new OpenAIApi(configuration);
